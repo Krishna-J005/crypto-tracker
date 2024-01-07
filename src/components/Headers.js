@@ -5,7 +5,7 @@ import './Headers.css';
 import logo from '../assets/logo.svg'
 const Headers = () => {
     const location = useLocation();
-    debugger
+  
     return (
 
         <header className="header">
