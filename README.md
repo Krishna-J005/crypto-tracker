@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshot
 ![Home Page](/src/assets/desktop_homepage.png)
-![Mobile Home Page](/src/assets/mobile_homepage.png)
+![Mobile Home Page](/src/assets/mobile_homepage_new.png)
 ![Converter Page](/src/assets/desktop_converter_page.png)
 ![Mobile Converter Page](/src/assets/mobile_converter_page.png)
 ## Available Scripts
