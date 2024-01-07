@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
+import CryptoConverter from './components/CryptoConverter';
+import Headers from './components/Headers';
+import Home from './components/Home.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => (
+  <div>
+    <Headers/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/crypto-converter" element={<CryptoConverter />} />
+    </Routes>
+  </div>
+);
 
 export default App;

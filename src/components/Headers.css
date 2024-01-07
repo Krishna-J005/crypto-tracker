@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 16px;
+    background: rgb(2, 0, 36);
+    background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(210, 114, 228, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(210, 114, 228, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(210, 114, 228, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#00d4ff", GradientType=1);
+    color: #fff;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0 1em;
+    padding: 0;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 1rem;
+    padding: 0.25rem;
+    height: 24px;
+    background-color: none;
+    display: flex;
+
+}
+
+
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 1em;
+    color: black !important;
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
