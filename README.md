@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Screenshot
-![Home Page](asset/desktop_homepage.png)
-![Mobile Home Page](asset/mobile_homepage.png)
-![Converter Page](asset/desktop_converter_page.png)
-![Mobile Converter Page](asset/mobile_converter_page.png)
+![Home Page](/src/assets/desktop_homepage.png)
+![Mobile Home Page](/src/assets/mobile_homepage.png)
+![Converter Page](/src/assets/desktop_converter_page.png)
+![Mobile Converter Page](/src/assets/mobile_converter_page.png)
 ## Available Scripts
 
 In the project directory, you can run:
